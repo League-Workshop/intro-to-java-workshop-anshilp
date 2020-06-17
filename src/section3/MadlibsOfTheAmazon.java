@@ -8,6 +8,18 @@ public class MadlibsOfTheAmazon {
 		// Put this sentence in a pop up:
 		// If you find yourself having to cross a piranha-infested river, here's how to do it...
 		
+		JOptionPane.showMessageDialog(null, "If you find yourself having to cross a paranha-infested river, here's how to do it...");
+		
+		String one = JOptionPane.showInputDialog("Enter an adjective");
+		String two = JOptionPane.showInputDialog("Enter a type of liquid");
+		String three = JOptionPane.showInputDialog("Enter a body part");
+		String four = JOptionPane.showInputDialog("Enter a verb");
+		String five = JOptionPane.showInputDialog("Enter a place");
+		
+		JOptionPane.showMessageDialog(null, "Piranhas are more " + one + " during the day, so cross the river at night. Piranhas are attracted to fresh " + two + " and will most likely take a bite out of your" + three + " if you " + four + " Whatever you do, if you have an open wound, try to find another way to get back to the " + five + ". Good luck!");
+		
+		
+		
 		// Get the user to enter an adjective
 
 		// Get the user to enter a type of liquid
